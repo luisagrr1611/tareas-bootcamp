@@ -1,0 +1,61 @@
+body {
+    display:flex;
+    flex-flow:column;
+    height:95%;
+    width: 90%;
+    margin: 50px;
+    font-size: 2rem;
+}
+html {
+    height:100%;
+}
+
+.header {
+    height: 10rem;
+    width: 100%;
+    background-color: rgb(233, 232, 232);
+    border-bottom: 1rem solid white;
+}
+
+.navigation {
+    height: 5rem;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+    border-bottom: 1rem solid white;
+}
+
+.contenido {
+    display:flex;
+    height:100%;
+}
+
+.content1 {
+    flex: 1 1 ;
+    background-color: rgb(233, 232, 232);
+}
+
+.content2 {
+    flex: 1 1;
+    background-color: rgb(233, 232, 232);
+}
+
+.mainC {
+    flex: 3 1 ;
+    background-color: rgb(233, 232, 232);
+    border-left:1rem solid white;
+    border-right:1rem solid white;
+}
+
+.Footer {
+    height: 6rem;
+    width: 100%;
+    background-color: rgb(233, 232, 232);
+    margin-top:auto;
+    border-top: 1rem solid white;
+}
+
+.centrarFlex {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
